@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <cropper />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Cropper from '@/components/Cropper.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Cropper
   }
 }
 </script>
